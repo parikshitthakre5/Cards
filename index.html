@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>FlexBox Properties</title>
+    <style>
+      .outcont {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        padding: 10px 50px;
+
+      }
+
+      .incont {
+        width: 500px;
+        height: 100%;
+        border: 5px solid #000099;
+        margin: 10px;
+
+      }
+
+      .img {
+        width: 100%;
+      }
+
+      .heading1 {
+        font-weight: 600;
+        text-align: center;
+      }
+
+      .heading2 {
+        padding: 0px 10px;
+      }
+
+      .heading3 {
+        padding: 0px 10px;
+        font-weight: 600;
+      }
+
+      .heading4 {
+        padding: 0px 10px;
+        display: inline-block;
+      }
+
+      .btn {
+        border: none;
+        border-radius: 15px;
+        padding: 5px 10px;
+      }
+
+      .circle {
+        padding-left: 10px;
+        height: 30px;
+        width: 30px;
+      }
+
+      .img1 {
+        height: 40px;
+        width: 40px;
+        border: 2px solid grey;
+        border-radius: 50%;
+      }
+
+      .heading5 {
+        font-weight: 900;
+        display: inline-block;
+        margin: 10px auto;
+      }
+
+      .price {
+        font-weight: 900;
+        text-align: center;
+        color: #0066ff;
+      }
+
+      .btn1 {
+        background-color: black;
+        color: aliceblue;
+        border: none;
+        padding: 10px 15px;
+        border-radius: 20px;
+        display: block;
+        margin: 10px auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="outcont">
+      <div class="incont">
+        <img src="./characters/mod.jpg" alt="img" class="img" height="200px" />
+        <p class="heading1"><b>Modern Android Development 1.0</b></p>
+        <p class="heading2">
+          Designed for our students of ICP course. Add extra skills to stay
+          ahead in the competition.
+        </p>
+        <p class="heading3">
+          📅&nbsp;&nbsp;Starting from 1st August 2024 (final date)
+        </p>
+        <p class="heading4">🕗&nbsp;&nbsp;6:00 PM - 7:00 PM</p>
+        <button class="btn">💻&nbsp;Online</button>
+        <hr />
+        <span class="circle">
+          <img src="./characters/instructor.webp" alt="img" class="img1" />
+          <p class="heading5">Suraj Shende(Instructor)</p>
+          <hr />
+        </span>
+        <p class="price">₹ 2999/-</p>
+        <hr />
+        <button class="btn1">Know More</button>
+      </div>
+
+      <div class="incont">
+        <img src="./characters/mod1.jpg" alt="img" class="img" height="200px" />
+        <p class="heading1"><b>AWS and DevOps For Beginners</b></p>
+        <p class="heading2">
+          Designed for our students of ICP course. Add extra skills to stay
+          ahead in the competition.
+        </p>
+        <p class="heading3">
+          📅&nbsp;&nbsp;Starting from 20th August 2024 (final date)
+        </p>
+        <p class="heading4">🕗&nbsp;&nbsp;6:00 PM - 7:00 PM</p>
+        <button class="btn">💻&nbsp;Online</button>
+        <hr />
+        <span class="circle">
+          <img src="./characters/VaibhaviHole31.webp" alt="img" class="img1" />
+          <p class="heading5">Vaibhavi Hole(Instructor)</p>
+          <hr />
+        </span>
+        <p class="price">₹ 2499/-</p>
+        <hr />
+        <button class="btn1">Know More</button>
+      </div>
+
+      <div class="incont">
+        <img src="./characters/moc1.jpg" alt="img" class="img" height="200px" />
+        <p class="heading1"><b>C Programming</b></p>
+        <p class="heading2">
+          Designed for our students of ICP course. Add extra skills to stay
+          ahead in the competition.
+        </p>
+        <p class="heading3">
+          📅&nbsp;&nbsp;Starting from 20th August 2024 (final date)
+        </p>
+        <p class="heading4">🕗&nbsp;&nbsp;6:00 PM - 7:00 PM</p>
+        <button class="btn">💻&nbsp;Online</button>
+        <hr />
+        <span class="circle">
+          <img src="./characters/VaibhaviHole31.webp" alt="img" class="img1" />
+          <p class="heading5">Vaibhavi Hole(Instructor)</p>
+          <hr />
+        </span>
+        <p class="price">₹ 999/-</p>
+        <hr />
+        <button class="btn1">Know More</button>
+      </div>
+
+      <div class="incont">
+        <img src="./characters/mod2.jpg" alt="img" class="img" height="200px" />
+        <p class="heading1"><b>Internship Cohort Program 10.0</b></p>
+        <p class="heading2">
+          Designed for our students of ICP course. Add extra skills to stay
+          ahead in the competition.
+        </p>
+        <p class="heading3">
+          📅&nbsp;&nbsp;Starting from 9th September 2024 (final date)
+        </p>
+        <p class="heading4">🕗&nbsp;&nbsp;6:00 PM - 7:00 PM</p>
+        <button class="btn">💻&nbsp;Online</button>
+        <hr />
+        <span class="circle">
+          <img src="./characters/instructor.webp" alt="img" class="img1" />
+          <p class="heading5">Suraj Shende(Instructor)</p>
+          <hr />
+        </span>
+        <p class="price">₹ 2499/-</p>
+        <hr />
+        <button class="btn1">Know More</button>
+      </div>
+
+      <div class="incont">
+        <img src="./characters/mod3.jpg" alt="img" class="img" height="200px" />
+        <p class="heading1"><b>C++ Programming</b></p>
+        <p class="heading2">
+          Designed for our students of ICP course. Add extra skills to stay
+          ahead in the competition.
+        </p>
+        <p class="heading3">
+          📅&nbsp;&nbsp;Starting from 16th September 2024 (final date)
+        </p>
+        <p class="heading4">🕗&nbsp;&nbsp;6:00 PM - 7:00 PM</p>
+        <button class="btn">💻&nbsp;Online</button>
+        <hr />
+        <span class="circle">
+          <img src="./characters/VaibhaviHole31.webp" alt="img" class="img1" />
+          <p class="heading5">Vaibhavi Hole(Instructor)</p>
+          <hr />
+        </span>
+        <p class="price">₹ 999/-</p>
+        <hr />
+        <button class="btn1">Know More</button>
+      </div>
+
+      <div class="incont">
+        <img src="./characters/mod4.jpg" alt="img" class="img" height="200px" />
+        <p class="heading1"><b>Data Structures and Algorithms</b></p>
+        <p class="heading2">
+          Designed for our students of ICP course. Add extra skills to stay
+          ahead in the competition.
+        </p>
+        <p class="heading3">
+          📅&nbsp;&nbsp;Starting from 11th November 2024 (final date)
+        </p>
+        <p class="heading4">🕗&nbsp;&nbsp;8:00 PM - 9:00 PM</p>
+        <button class="btn">💻&nbsp;Online</button>
+        <hr />
+        <span class="circle">
+          <img src="./characters/instructor.webp" alt="img" class="img1" />
+          <p class="heading5">Suraj Shende(Instructor)</p>
+          <hr />
+        </span>
+        <p class="price">₹ 1999/-</p>
+        <hr />
+        <button class="btn1">Know More</button>
+      </div>
+
+      <div class="incont">
+        <img src="./characters/mod5.png" alt="img" class="img" height="200px" />
+        <p class="heading1">
+          <b>Internship Guarantee Classroom Program 3.0</b>
+        </p>
+        <p class="heading2">
+          Learn Fullstack Development and Become Internship Ready in Just 6
+          Months 🚀
+        </p>
+        <p class="heading3">
+          📅&nbsp;&nbsp;Starting from 1th November2024(final date)
+        </p>
+        <p class="heading4">🕗&nbsp;&nbsp;8:00 AM - 9:30 AM</p>
+        <button class="btn">💻&nbsp;Online</button>
+        <hr />
+        <span class="circle">
+          <img src="./characters/instructor.webp" alt="img" class="img1" />
+          <p class="heading5">Suraj Shende(Instructor)</p>
+          <hr />
+        </span>
+        <p class="price">₹ 19,999/-</p>
+        <hr />
+        <button class="btn1">Know More</button>
+      </div>
+
+      <div class="incont">
+        <img src="./characters/mod6.jpg" alt="img" class="img" height="200px" />
+        <p class="heading1"><b>Python Programming</b></p>
+        <p class="heading2">
+          Learn Python Programming from Scratch and Master the concepts of
+          Python Programming
+        </p>
+        <p class="heading3">
+          📅&nbsp;&nbsp;Starting from 1st March 2025(final date)
+        </p>
+        <p class="heading4">🕗&nbsp;&nbsp;7:00 PM - 8:00 PM</p>
+        <button class="btn">💻&nbsp;Online</button>
+        <hr />
+        <span class="circle">
+          <img src="./characters/VaibhaviHole31.webp" alt="img" class="img1" />
+          <p class="heading5">Vaibhavi Hole(Instructor)</p>
+          <hr />
+        </span>
+        <p class="price">₹ 999/-</p>
+        <hr />
+        <button class="btn1">Know More</button>
+      </div>
+    </div>
+  </body>
+</html>
